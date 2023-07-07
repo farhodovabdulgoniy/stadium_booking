@@ -1,3 +1,4 @@
+```
 # Install virtualenv and activate the virtual environment
 $ pip install virtualenv
 $ virtualenv venv
@@ -18,3 +19,4 @@ $ celery -A config beat --loglevel=debug --scheduler django_celery_beat.schedule
 
 # Run Celery Worker (processor)
 $ celery -A config worker -l info
+```
